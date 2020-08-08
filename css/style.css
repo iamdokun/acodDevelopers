@@ -30,8 +30,7 @@ body {
 
 #menu nav ul li {
     border: 1px solid blue;
-    display: inline-flex;
-  
+    display: inline-flex;  
 }
 
 #menu nav ul li a {
@@ -40,7 +39,18 @@ body {
     color: white;
 }
 
+.client{
+    display: flex;
+}
 
+.clientpic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: dashed 2px black;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 
