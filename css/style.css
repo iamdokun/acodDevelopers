@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    background: #f7f7f7;
+}
+
+/******************** NavBar Section *********************/
+
+#menu {
+    background: #0b0b0d;
+    overflow: hidden;
+}
+
+#menu nav {
+    float: right;
+    margin: 10px;
+}
+
+#menu nav ul {
+    width: 100%;
+}
+
+#menu nav ul li {
+    display: inline-flex;
+    padding: 5px;
+}
+
+#menu nav ul li a {
+    text-decoration: none;
+    padding-right: 50px;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+}
+
+#menu nav ul li a:hover {
+   text-decoration: underline;
+   font-size: 13px;
+}
+
+
+
+
+
