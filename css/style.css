@@ -15,28 +15,31 @@ body {
 /******************** NavBar Section *********************/
 
 #menu {
-    background: #000000;
+    background: #0b0b0d;
     overflow: hidden;
 }
 
 #menu nav {
     float: right;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 #menu nav ul {
     width: 100%;
 }
 
-#menu nav ul li {
-    border: 1px solid blue;
-    display: inline-flex;  
 }
 
 #menu nav ul li a {
     text-decoration: none;
     padding-right: 50px;
     color: white;
+    font-family: 'Recursive', sans-serif;
+}
+
+#menu nav ul li a:hover {
+   text-decoration: underline;
+   font-size: 13px;
 }
 
 .client{
@@ -67,6 +70,14 @@ body {
 .testies h2{
     margin: 20px;
 }
+
+/* #menu nav ul li {
+ subzero
+    border: 1px solid blue;
+    display: inline-flex;  
+=======
+    display: inline-flex;
+    padding: 5px; */
 
 
 
