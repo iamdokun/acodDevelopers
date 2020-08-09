@@ -93,5 +93,25 @@ body {
     display: inline-flex;
     padding: 5px; */
 
+    /* creating our client section  */
 
+#ourclient{
+    margin-left: 10px;
+}
 
+#ourclient{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Clientlogo{
+    margin-top: 20px;
+}
+.Clientlogo img{
+    max-width: 200px;
+    max-height: 300px;
+    text-align:center;
+}
+#copyright{
+    margin:auto;
+}
