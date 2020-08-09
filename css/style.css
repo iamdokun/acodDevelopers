@@ -28,8 +28,6 @@ body {
     width: 100%;
 }
 
-}
-
 #menu nav ul li a {
     text-decoration: none;
     padding-right: 50px;
@@ -42,6 +40,7 @@ body {
    font-size: 13px;
 }
 
+/********** Testimonial *************/
 .client{
     display: flex;
 }
