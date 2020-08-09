@@ -28,9 +28,6 @@ body {
     width: 100%;
 }
 
-#menu nav ul li {
-    display: inline-flex;
-    padding: 5px;
 }
 
 #menu nav ul li a {
@@ -45,7 +42,42 @@ body {
    font-size: 13px;
 }
 
+.client{
+    display: flex;
+}
 
+.clientpic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: dashed 2px blueviolet;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.clienttext{
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.client{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.testies h2{
+    margin: 20px;
+}
+
+/* #menu nav ul li {
+ subzero
+    border: 1px solid blue;
+    display: inline-flex;  
+=======
+    display: inline-flex;
+    padding: 5px; */
 
 
 
