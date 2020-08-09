@@ -28,6 +28,10 @@ body {
     width: 100%;
 }
 
+#menu nav ul li {
+    display: inline-flex;
+}
+
 #menu nav ul li a {
     text-decoration: none;
     padding-right: 50px;
@@ -38,6 +42,17 @@ body {
 #menu nav ul li a:hover {
    text-decoration: underline;
    font-size: 13px;
+}
+
+/************ Our  services ***********/
+#serviceshead {
+    text-align: center;
+}
+
+#services {
+    border: 1px solid red;
+    display: inline-flex;
+    padding: 30px;
 }
 
 /********** Testimonial *************/
