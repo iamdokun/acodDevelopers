@@ -243,3 +243,30 @@ footer {
          margin: 25px;
          padding-bottom: 15px;
      }
+
+     /******** Gallery ********/
+
+     #gallery-section {
+         text-align: center;
+         margin-top: 25px;
+     }
+/* 
+     #garllery-header {
+         border: 1px solid red;
+         margin: 25px;
+     } */
+     /* .image {
+
+        margin: 20px;
+     } */
+
+     .image img {
+         border-radius: 15px;
+         margin-top: 25px;
+         background: #f7f7f7
+     }
+
+     #gallery-section h3 {
+        font-family: 'Montserrat', sans-serif;
+     }
+
