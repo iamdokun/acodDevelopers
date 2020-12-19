@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,48 +10,263 @@ body {
 
 #container {
     width: 100%;
-    background: #f7f7f7;
+    background: white;
 }
 
 /******************** NavBar Section *********************/
 
 #menu {
-    background: #000000;
+    background:#f7f7f7;
     overflow: hidden;
 }
 
+.fixed-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 2px 2px 2px #80808082;
+}
+
 #menu nav {
-    float: right;
-    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    box-shadow: 5px 10px 18px red
+}
+
+#menu nav h2 {
+    color: #f05d23;
+    width: 20%;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
 }
 
 #menu nav ul {
     width: 100%;
+    text-align: right;
 }
 
 #menu nav ul li {
-    border: 1px solid blue;
-    display: inline-flex;  
+    display: inline-flex;
 }
 
 #menu nav ul li a {
     text-decoration: none;
     padding-right: 50px;
-    color: white;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
 }
 
+#menu nav ul li a:hover {
+   text-decoration: underline;
+   font-size: 13px;
+   color: #f05d23;
+}
+
+/************ Our  services ***********/
+#serviceshead {
+    text-align: center;
+    margin-top: 20px
+}
+
+#servicehead > h2 {
+    border-bottom: 2px double #f05d23;
+}
+
+#services {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#services .content {
+    width: 30%;
+    background: #f7f7f7;
+    padding: 20px;
+    line-height:1.5rem ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#services .content h3 {
+    margin-bottom: 1.7rem
+}
+
+/********** Testimonial *************/
+
+.testies {
+    text-align: center;
+    background: #f7f7f7;
+    justify-content: space-between;
+}
 .client{
     display: flex;
+
 }
 
 .clientpic img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: dashed 2px black;
-    padding: 5px;
+    border: dashed 1px #f05d23;
+    padding: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.clienttext{
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.client{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.testies h2{
+    margin: 20px;
+}
+
+.Clientlogo img{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+#box1 {
+    width: 500px;
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#box2 {
+    width: 500px;
+    float: right;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#box3 {
+    width: 500px;
+    margin-left: 450px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****** Our Client ********/
+
+#ourclient {
+    text-align: center;
+    background: #f7f7f7;
+
+}
+
+.Clientlogo {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.Clientlogo img {
+    border-radius: 20px; 
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    background: #333333;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 
+
+    /* underline */
+    .underline {
+        text-decoration: none; 
+        position: relative; 
+        font-family: 'Montserrat', sans-serif;
+      }   
+ 
+     .underline:after {
+         position: absolute;
+         content: '';
+         height: 2px;
+           /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+         bottom: -4px; 
+ 
+ 
+        /****** 
+        optional values below 
+        ******/
+         
+         /* center - (optional) use with adjusting width   */
+         margin: 0 auto;
+           left: 0;
+         right: 0;
+           width: 20%;
+           background: #f05d23;
+           
+           /* optional animation */
+           -o-transition:.5s;
+             -ms-transition:.5s;
+         -moz-transition:.5s;
+         -webkit-transition:.5s;
+         transition:.5s;
+     }
+
+     /****** About Us Page *******/
+
+     #about-section {
+         text-align: center;
+         font-family: 'Montserrat', sans-serif;
+         background: #f7f7f7;
+        }
+     
+     #aboutus {
+         margin: 25px;
+     }
+
+     #about-text {
+         margin: 20px;
+     }
+     #vision-text {
+         margin: 25px;
+     }
+     #mission-text {
+         margin: 25px;
+         padding-bottom: 15px;
+     }
+
+     /******** Gallery ********/
+
+     #gallery-section {
+         text-align: center;
+         margin-top: 30px;
+     }
+/* 
+     #garllery-header {
+         border: 1px solid red;
+         margin: 25px;
+     } */
+     /* .image {
+
+        margin: 20px;
+     } */
+
+     .image img {
+         border-radius: 15px;
+         margin-top: 25px;
+         background: #f7f7f7
+     }
+
+     #gallery-section h3 {
+        font-family: 'Montserrat', sans-serif;
+     }
 
